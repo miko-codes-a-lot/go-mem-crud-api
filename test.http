@@ -1,0 +1,17 @@
+GET http://localhost:8080/albums
+Content-Type: application/json
+
+###
+GET http://localhost:8080/albums/4
+Content-Type: application/json
+
+###
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+  "id": "4",
+  "title": "Welcome To The Black Parade",
+  "artist": "MCR",
+  "price": 33.1
+}
